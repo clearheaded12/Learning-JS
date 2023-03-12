@@ -203,4 +203,4 @@ arr.push(function() {
   console.log( `this` );
 })
 
-arr[2]();
+arr[2](); 
