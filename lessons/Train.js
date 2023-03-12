@@ -18,25 +18,27 @@
 //     alert(`canceled`)
 // }
 
-let varUser = prompt(`Who is there?`);
+// let varUser = prompt(`Who is there?`);
 
-if (varUser === `Admin`) {
+// if (varUser === `Admin`) {
 
-  let varUserPass = prompt(`Password?`);
+//   let varUserPass = prompt(`Password?`);
 
-  if (varUserPass === `I am charge`) {
-    alert(`Hello!`);
-  }
-  else if (varUserPass === `` || varUserPass === null) {
-    alert(`Canceled`);
-  }
-  else {
-    alert(`Incorrect password`);
-  }
-}
-else if (varUser === `` || varUser === null){
-  alert(`Canceled`);
-}
-else {
-  alert(`I do not know you`);
-}
+//   if (varUserPass === `I am charge`) {
+//     alert(`Hello!`);
+//   }
+//   else if (varUserPass === `` || varUserPass === null) {
+//     alert(`Canceled`);
+//   }
+//   else {
+//     alert(`Incorrect password`);
+//   }
+// }
+// else if (varUser === `` || varUser === null){
+//   alert(`Canceled`);
+// }
+// else {
+//   alert(`I do not know you`);
+// }
+
+
