@@ -159,6 +159,17 @@
 
 
 
+// ====My draft====
+
+// A good example of using a loop in layout
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let fLen = fruits.length;
+
+// let text = "<ul>";
+// for (let i = 0; i < fLen; i++) {
+//   text += "<li>" + fruits[i] + "</li>";
+// }
+// text += "</ul>";
 
 
 // let fruits = [];
@@ -197,10 +208,10 @@
 // console.log(styles.unshift(`Рэп`, `Регги`))
 // console.log(styles)
 
-let arr = ["a", "b"];
+// let arr = ["a", "b"];
 
-arr.push(function() {
-  console.log( `this` );
-})
+// arr.push(function() {
+//   console.log( `this` );
+// })
 
-arr[2](); 
+// arr[2](); 
