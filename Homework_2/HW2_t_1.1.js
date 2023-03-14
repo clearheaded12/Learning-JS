@@ -15,12 +15,12 @@
 // Nalya solution
 // Она добавила валидацию через .toLowerCase()
 
-let myMonth = `JuLy`
-let month = myMonth.toLowerCase()
+// let myMonth = `JuLy`
+// let month = myMonth.toLowerCase()
 
-if (month == `july` || myMonth == `august`) {
-  console.log(`approved`)
-} else {
-  console.log(`denied`)
-}
+// if (month == `july` || myMonth == `august`) {
+//   console.log(`approved`)
+// } else {
+//   console.log(`denied`)
+// }
 

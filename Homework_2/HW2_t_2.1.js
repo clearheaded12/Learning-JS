@@ -89,52 +89,52 @@
 // Nalya solution
 
 // declare all variables
-let cupSize;
-let smallCup = `small cup`;
-let mediumCup = `medium cup`;
-let largeCup = `large cup`;
-let water;
-let hotWater = `hot water`;
-let coldWater = `cold water`;
-let price = 5;
-let coffeeType;
-let Latte = `Latte`;
-let icedCoffee = `Iced Coffee`;
-let waterVolume;
+// let cupSize;
+// let smallCup = `small cup`;
+// let mediumCup = `medium cup`;
+// let largeCup = `large cup`;
+// let water;
+// let hotWater = `hot water`;
+// let coldWater = `cold water`;
+// let price = 5;
+// let coffeeType;
+// let Latte = `Latte`;
+// let icedCoffee = `Iced Coffee`;
+// let waterVolume;
 
 // make a choice
-coffeeType = Latte;
-cupSize = mediumCup;
+// coffeeType = Latte;
+// cupSize = mediumCup;
 
 // set recipe ingredients
-if (coffeeType == icedCoffee) {
-  water = coldWater;
-} else {
-  water == hotWater;
-}
+// if (coffeeType == icedCoffee) {
+//   water = coldWater;
+// } else {
+//   water == hotWater;
+// }
 
-if (cupSize == smallCup) {
-  waterVolume = `150 ml`;
-  // console.log(cupSize + `- ` + price + `$`)
-} else if (cupSize == mediumCup) {
-  waterVolume = `200 ml`;
-  price *= 1.5;
-  // console.log(cupSize + `- ` + price + `$`)
-} else if (cupSize == largeCup) {
-  waterVolume = `300 ml`;
-  price *= 2;
+// if (cupSize == smallCup) {
+//   waterVolume = `150 ml`;
+//   // console.log(cupSize + `- ` + price + `$`)
+// } else if (cupSize == mediumCup) {
+//   waterVolume = `200 ml`;
+//   price *= 1.5;
+//   // console.log(cupSize + `- ` + price + `$`)
+// } else if (cupSize == largeCup) {
+//   waterVolume = `300 ml`;
+//   price *= 2;
   // console.log(cupSize + `- ` + price + `$`)
 }
 
 // steps for coffee recipe
-let order = `You choosed a ${cupSize} of ${coffeeType}\n Follow the steps: `;
-let step1 = `1. Take a ${cupSize}`;
-let step2 = `2. Put 1 spoon of coffee in it`;
-let step3 = `3. Pour ${waterVolume} of ${water} in a cup`;
-let step4 = `4. Pour 20 ml of milk in a cup of coffee`;
-let step5 = `5. Stir coffee in a cup with a spoon`;
-let orderPrice = `The order price is ${price}$`;
-let result = `Enjoy your coffee!`;
+// let order = `You choosed a ${cupSize} of ${coffeeType}\n Follow the steps: `;
+// let step1 = `1. Take a ${cupSize}`;
+// let step2 = `2. Put 1 spoon of coffee in it`;
+// let step3 = `3. Pour ${waterVolume} of ${water} in a cup`;
+// let step4 = `4. Pour 20 ml of milk in a cup of coffee`;
+// let step5 = `5. Stir coffee in a cup with a spoon`;
+// let orderPrice = `The order price is ${price}$`;
+// let result = `Enjoy your coffee!`;
 
 // document.write(
 //   order + step1 + `<br>`,
@@ -144,11 +144,11 @@ let result = `Enjoy your coffee!`;
 //   step5 + `<br>` + `<br>` + orderPrice`<br>` + result
 // );
 
-console.log(
-  order + `\n`,
-  step1 + `\n`,
-  step2 + `\n`,
-  step3 + `\n`,
-  step4 + `\n`,
-  step5 + `\n` + `\n` + orderPrice + `\n` + result
-);
+// console.log(
+//   order + `\n`,
+//   step1 + `\n`,
+//   step2 + `\n`,
+//   step3 + `\n`,
+//   step4 + `\n`,
+//   step5 + `\n` + `\n` + orderPrice + `\n` + result
+// );

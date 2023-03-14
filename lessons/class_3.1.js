@@ -80,21 +80,21 @@
 //   }
 // }
 
-let str = 0;
-let arr = [
-  `son`,
-  `hello`,
-  5,
-  -10,
-  `byer`,
-  true,
-  `_`,
-  false,
-  8,
-  9,
-  [`hi`, true, 8, `=`],
-];
+// let str = 0;
+// let arr = [
+//   `son`,
+//   `hello`,
+//   5,
+//   -10,
+//   `byer`,
+//   true,
+//   `_`,
+//   false,
+//   8,
+//   9,
+//   [`hi`, true, 8, `=`],
+// ];
 
-for (let i = arr.length -1; i >= 0; i--) {
-  console.log(arr[i])
-}
+// for (let i = arr.length -1; i >= 0; i--) {
+//   console.log(arr[i])
+// }

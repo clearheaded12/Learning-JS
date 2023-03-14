@@ -40,21 +40,21 @@
 // для детей от 2-х до 17-ти лет - 50% стоимости
 // для пенсионеров старше 65 лет - 60% стоимости
 
-let price = 100;
-let age = prompt(`How old are you?`);
-let totalTicket = prompt(`How many tickets do you need?`);
-let totalPriceChild = price * (totalTicket * 0.5);
-let totalPricePensioners = price * (totalTicket * 0.4);
-let totalPriceBabies = price * (totalTicket * 0.9);
-let totalPriceAdults = price * totalTicket;
-let finalAnswer = `Total price is `;
+// let price = 100;
+// let age = prompt(`How old are you?`);
+// let totalTicket = prompt(`How many tickets do you need?`);
+// let totalPriceChild = price * (totalTicket * 0.5);
+// let totalPricePensioners = price * (totalTicket * 0.4);
+// let totalPriceBabies = price * (totalTicket * 0.9);
+// let totalPriceAdults = price * totalTicket;
+// let finalAnswer = `Total price is `;
 
-if (age < 2) {
-  alert(finalAnswer + totalPriceBabies);
-} else if (age <= 17) {
-  alert(finalAnswer + totalPriceChild);
-} else if (age <= 64) {
-  alert(finalAnswer + totalPriceAdults);
-} else if (age >= 65) {
-  alert(finalAnswer + totalPricePensioners);
-}
+// if (age < 2) {
+//   alert(finalAnswer + totalPriceBabies);
+// } else if (age <= 17) {
+//   alert(finalAnswer + totalPriceChild);
+// } else if (age <= 64) {
+//   alert(finalAnswer + totalPriceAdults);
+// } else if (age >= 65) {
+//   alert(finalAnswer + totalPricePensioners);
+// }

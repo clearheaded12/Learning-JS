@@ -3,18 +3,18 @@
 
 // nalya solution
 
-let num1 = 6;
-let num2 = 3;
-let operator = `/`;
+// let num1 = 6;
+// let num2 = 3;
+// let operator = `/`;
 
-if (operator == `+`) {
-  console.log(num1 + num2);
-} else if (operator == `-`) {
-  console.log(num1 - num2);
-} else if (operator == `*`) {
-  console.log(num1 * num2);
-} else if (operator == `/` && num2 != 0) {
-  console.log(num1 / num2);
-} else {
-  console.log(`Please, enter correct number.`);
-}
+// if (operator == `+`) {
+//   console.log(num1 + num2);
+// } else if (operator == `-`) {
+//   console.log(num1 - num2);
+// } else if (operator == `*`) {
+//   console.log(num1 * num2);
+// } else if (operator == `/` && num2 != 0) {
+//   console.log(num1 / num2);
+// } else {
+//   console.log(`Please, enter correct number.`);
+// }
