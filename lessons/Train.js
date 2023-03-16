@@ -41,4 +41,28 @@
 //   alert(`I do not know you`);
 // }
 
+// let k = 0;
+// do {
+//   console.log(k);
+//   k++;
+// } while (k < 3);
 
+let hello;
+const numbers = [43, 45, hello, ` true`];
+
+// let txt = ``;
+// for (let el in numbers) {
+//    txt += numbers[el];
+// }
+// console.log(el);
+
+// for (let el = 0; el < numbers.length; el++) {
+//   txt += numbers[el];
+// }
+// console.log(txt);
+
+let txt = ``;
+for (let el of numbers) {
+  //    txt += el;
+  console.log(el);
+}
