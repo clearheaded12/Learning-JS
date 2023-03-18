@@ -1,3 +1,4 @@
+// if-else, switch, toUpperCase, toLowCase (Tatiana Volk)
 // Решаем задачи на codewars
 
 // 1. Task
@@ -21,7 +22,7 @@
 //   });
 // });
 
-//------
+// ------
 
 // 2. Task
 // Instructions
@@ -49,7 +50,7 @@
 //     }
 //  }
 
-//------
+// ------
 
 // 3. Task
 // Instructions
@@ -99,7 +100,7 @@
 //   }
 // }
 
-//------
+// ------
 
 // 4. Task
 // Instructions
