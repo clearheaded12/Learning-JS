@@ -5,7 +5,7 @@
 // let smallCup = `small cup`;
 // let mediumCup = `medium cup`;
 // let largeCup = `large cup`;
-// let water;
+// let water = `water`;
 // let hotWater = `hot water`;
 // let coldWater = `cold water`;
 // let totalPrice = 5;

@@ -1,7 +1,7 @@
 // 1.3 Решите задачу с помощью пройденных тем:
 // «Улитка ползёт вверх по стене высотой 5 метров. Каждый день она проползает вверх на 3 метра, а каждую ночь съезжает вниз на 2 метра. За сколько дней она доползёт до вершины стены.»
 
-// let countDay = 1;
+// let countDay = 0;
 // let wallHeight = 5;
 // let dayDistance = 3;
 // let nightDistance = -2;
@@ -14,25 +14,25 @@
 //         console.log(countDay)
 //     }
 //     else {
-//         distance = distance + dayDistance + nightDistance
+//         distance =  dayDistance + nightDistance
 //         ++countDay
 //     }
 //     if ((distance + dayDistance) >= wallHeight) {
 //         console.log(countDay)
 //     }
 //     else {
-//         distance = distance + dayDistance + nightDistance
+//         distance = dayDistance + nightDistance
 //         ++countDay
 //     }
 //     if ((distance + dayDistance) >= wallHeight) {
 //         console.log(countDay)
 //     }
 //     else {
-//         distance = distance + dayDistance + nightDistance
+//         distance = dayDistance + nightDistance
 //         ++countDay
 //     }
 // }
-
+// console.log(countDay)
 
 
 // С помощью краткой формулы решение
