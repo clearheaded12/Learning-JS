@@ -70,7 +70,7 @@
 // // let x = 5;
 // // let space =` `;
 // for (let i = 1; i <= x; i++) {
-//   for (let j = x + 1 - i; j >= 1; j--) {
+//   for (let j = x + 1 - i; j >= 1; j--) { 
 //     newStr5 += j;
 //   }
 //   newStr5 += `\n`;

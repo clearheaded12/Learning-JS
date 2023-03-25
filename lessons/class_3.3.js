@@ -16,20 +16,21 @@
 // ------
 
 // while
-// let str = `hello`;
-// let index = 0;
-// while (index < str.length) {
-//   console.log(str[index]);
-//   index++;
-// }
+let text = 1786
+let str = `hel ${text} lo`;
+let index = 0;
+while (index < str.length) {
+  console.log(str[index]);
+  index++;
+}
 
 // ------
 
 // do while
-// do {
-//   console.log(str[index]);
-//   index++;
-// } while (index < str.length);
+do {
+  console.log(str[index]);
+  index++;
+} while (index < str.length);
 
 // ------
 
