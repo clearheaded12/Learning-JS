@@ -72,7 +72,7 @@
 // for (let x of cars) {
 //   text += x;
 //   console.log(x);
-//   //   console.log(text);
+//     // console.log(text);
 // }
 
 // ------

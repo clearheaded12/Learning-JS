@@ -19,7 +19,63 @@
 //   totalDistance += nightDistance;
 // }
 
-// // my wrong solution
+// Nalya solution
+// let dayDistance = 3;
+// let nightDown = -2;
+// let distance = 0;
+// let days = 0;
+// let wall = 5;
+
+// while ((distance += dayDistance) <= wall) {
+//   days++;
+//   console.log(
+//     `- Current distance at the end of the day for day ${days} is ${distance} meter(s)`
+//   );
+//   if (distance == wall) {
+//     console.log(`Finish`);
+//   } else {
+//     console.log(`Go forward!`);
+//     distance += nightDown;
+//   }
+// }
+
+// Вот преимущество цикла над нижним решением
+// let countDay = 0;
+// let wallHeight = 5;
+// let dayDistance = 3;
+// let nightDistance = -2;
+// let distance = 0;
+
+// if (distance >= wallHeight) {
+//     console.log(`Do not need to move`)
+// } else {
+//     if ((distance + dayDistance) >= wallHeight) {
+//         console.log(countDay)
+//     }
+//     else {
+//         distance =  dayDistance + nightDistance
+//         ++countDay
+//     }
+//     if ((distance + dayDistance) >= wallHeight) {
+//         console.log(countDay)
+//     }
+//     else {
+//         distance = dayDistance + nightDistance
+//         ++countDay
+//     }
+//     if ((distance + dayDistance) >= wallHeight) {
+//         console.log(countDay)
+//     }
+//     else {
+//         distance = dayDistance + nightDistance
+//         ++countDay
+//     }
+// }
+// console.log(countDay)
+
+
+
+// // ====== my wrong solution ======
 // // for (countDay = 0; totalDistance <= wallHeight; countDay++) {
 // //   if (totalDistance >= wallHeight) {
 // //     console.log(`Do not need to move`);
