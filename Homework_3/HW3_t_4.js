@@ -5,22 +5,22 @@
 
 // Nalya solution
 
-let sum1 = 0;
-let sum2 = 0;
+// let sum1 = 0;
+// let sum2 = 0;
 
-let arr = ["(", ")", "(", ")", ")", "("];
+// let arr = ["(", ")", "(", ")", ")", "("];
 
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] == "(") {
-    sum1 += 1;
-  } else if (arr[i] == ")") {
-    sum2 += 1;
-  }
-}
-console.log("oppening = " + sum1 + ", closing = " + sum2);
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == "(") {
+//     sum1 += 1;
+//   } else if (arr[i] == ")") {
+//     sum2 += 1;
+//   }
+// }
+// console.log("oppening = " + sum1 + ", closing = " + sum2);
 
-if (sum1 == sum2) {
-  console.log("equal");
-} else {
-  console.log(`not equal`);
-}
+// if (sum1 == sum2) {
+//   console.log("equal");
+// } else {
+//   console.log(`not equal`);
+// }
