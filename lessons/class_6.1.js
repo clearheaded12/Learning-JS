@@ -89,3 +89,31 @@
 // }
 
 // console.log(digitize(n));
+
+// --------------------------------------------------
+
+// 5. Task(https://www.codewars.com/kata/5b4e779c578c6a898e0005c5/train/javascript)
+
+// describe("Some simple stairs", function () {
+//   it("Draw stairs with only 1 step", () =>
+//     assert.equal(
+//       drawStairs(1),
+//       "I",
+//       "The first step has no padding on the left, just an 'I'"
+//     ));
+//   it("Draw stairs with 3 steps", () =>
+//     assert.equal(
+//       drawStairs(3),
+//       "I\n I\n  I",
+//       "There's something wrong with these 3 steps"
+//     ));
+//   it("Draw stairs with 5 steps", () =>
+//     assert.equal(
+//       drawStairs(5),
+//       "I\n I\n  I\n   I\n    I",
+//       "5-step stairs no good"
+//     ));
+// });
+
+let n = 5;
+

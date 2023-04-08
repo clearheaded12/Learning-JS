@@ -1,4 +1,5 @@
 // // 3. Нарисуйте треугольник
+
 // // 1
 // // 2 6
 // // 3 7 10
@@ -14,7 +15,7 @@
 //   let num = i;                        // num = 1                   num = 2                             num = 3
 //   for (let j = 1; j <= i; j++) {      // j = 1                     j = 1, 2                            j = 1, 2, 3
 //     str += num + space;               // str += num(1) + space;    str += (2 + space)                  str += (3 + space) 
-//     num = num + (x - j);              // num = 1 + (5 - 1)         num 2 + (5 - 1)                     num 3 + (5 - 1)
+//     num += (x - j);                   // num = 1 + (5 - 1)         num 2 + (5 - 1)                     num 3 + (5 - 1)
 //                                       //                           str += (2 + space) + (6 + space)    str += (3 + space) + (7 + space)
 //                                       //                                                               num 7 + (5 - 2)
 //                                       //                                                               str += (3 + space) + (7 + space) + (10 + space)

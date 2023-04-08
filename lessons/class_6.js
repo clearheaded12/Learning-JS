@@ -9,7 +9,15 @@ Array methods                          String methods
 4. push()                              4. length
 5. concat()                            5. replace()
 6. spread operator                     6. charAt()
-7. delete                              7. trim()
+7. delete                              7. trim(), trimStart, trimEnd
+8. reverse                             8. toUpperCase(), toLowerCase()
+9. toString()                          9. concar()
+10. splice                            10. padStart(), padEnd() 
+11. indexOf                           11. charCodeAt()
+
+
+Нужны примеры по arrayMethods(8, 9, 11)
+Нужны примеры по stringMethods(7, 9, 10, 11)
 **/
 
 // --- compare with strings
@@ -41,12 +49,12 @@ Array methods                          String methods
 // console.log(stringNew);
 
 // === join(); конвертирует массив в строку, по умолчанию
-// разделяет символы запятой, но не меняет
+// разделяет символы запятой, но не меняет исходник
 
 // let array = ["a", "b", "c", 1, 2, 3];
 // console.log(array);
 
-// console.log(array.join(""));
+// console.log(array.join(" "));
 
 //let newStringFromArray = array.join("")
 //console.log(newStringFromArray)
@@ -146,13 +154,24 @@ Array methods                          String methods
 // delete fruits[1];
 // console.log(typeof fruits[1])
 
-// //===================String methods===========
-// // ===.length
+// // ======== splice()
+// let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+// // arr.splice(start_index, how_much_elements, new_elements(s))
+
+// arr.splice(-1, 1, 0)
+// arr.splice(0, 3, [`zero`, `one`, `two`])
+// answer = arr.splice(4, 3, ...[`four`, `five`, `six`])
+
+// console.log(...arr);
+// console.log(...answer);
+
+// //                                      ===================STRING METHODS===========
+// // ======== length
 
 // // let txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 // // console.log(txt.length)
 
-// // ===.slice
+// // ======== slice()
 
 // //Slice out a portion of a string from position 7 to position 13(13 not included)
 
