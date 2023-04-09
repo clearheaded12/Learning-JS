@@ -14,9 +14,15 @@ Array methods                          String methods
 9. toString()                          9. concar()
 10. splice                            10. padStart(), padEnd() 
 11. indexOf                           11. charCodeAt()
+12. includes()
+13. find()
+14. findIndex()
+15. map()
+16.forEach()
+17.reduce(), reduceRight(), reduceLeft
 
 
-Нужны примеры по arrayMethods(8, 9, 11)
+Нужны примеры по arrayMethods(8, 9, 11, 12, 13, 14, 15, 16, 17)
 Нужны примеры по stringMethods(7, 9, 10, 11)
 **/
 
