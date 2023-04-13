@@ -67,25 +67,25 @@
 //   console.log(el);
 // }
 
-let coffeeAmount = 3; // количество кофе
-let waterAmount = 3; // количество воды
-let numberCoffeeCup = 0;
+// let coffeeAmount = 3; // количество кофе
+// let waterAmount = 3; // количество воды
+// let numberCoffeeCup = 0;
 
-for (let i = 0; i < 5; i++) {
-  // приготавливаем 5 чашек кофе
-  const coffeePerCup = 1;
-  const waterPerCup = 1;
-  let coffeeUsed = coffeePerCup;
-  let waterUsed = waterPerCup;
-  if (coffeeAmount >= coffeeUsed && waterAmount >= waterUsed) {
-    coffeeAmount -= coffeeUsed;
-    waterAmount -= waterUsed;
-    numberCoffeeCup++;
-    console.log(
-      `Ингредиентов хватает на кружку кофе! Это ${numberCoffeeCup} кружка кофе.`
-    );
-  } else {
-    console.log(`Ингридентов не хватает, к сожалению.`);
-  }
-}
-console.log(`Всего вы можете сделать ${numberCoffeeCup} кружек кофе.`)
+// for (let i = 0; i < 5; i++) {
+//   // приготавливаем 5 чашек кофе
+//   const coffeePerCup = 1;
+//   const waterPerCup = 1;
+//   let coffeeUsed = coffeePerCup;
+//   let waterUsed = waterPerCup;
+//   if (coffeeAmount >= coffeeUsed && waterAmount >= waterUsed) {
+//     coffeeAmount -= coffeeUsed;
+//     waterAmount -= waterUsed;
+//     numberCoffeeCup++;
+//     console.log(
+//       `Ингредиентов хватает на кружку кофе! Это ${numberCoffeeCup} кружка кофе.`
+//     );
+//   } else {
+//     console.log(`Ингридентов не хватает, к сожалению.`);
+//   }
+// }
+// console.log(`Всего вы можете сделать ${numberCoffeeCup} кружек кофе.`)

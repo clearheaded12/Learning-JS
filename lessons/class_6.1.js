@@ -115,5 +115,20 @@
 //     ));
 // });
 
-let n = 5;
-
+// let n = 5;
+// function drawStairs(n) {
+//   let str = "I";
+//   let space = " ";
+//   for (let i = 1; i < n; i++) {
+//     if (i < n) {
+//       str += "\n";
+//       str += space.repeat(i);
+//       str += "I";
+//     } else {
+//       str += "I";
+//       str += space;
+//     }
+//   }
+//   return str;
+// }
+// console.log(drawStairs(5));

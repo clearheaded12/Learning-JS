@@ -17,7 +17,7 @@ Array methods                                 String methods
 12. includes()                               12. indexOf()
 13. find()                                   13. includes()
 14. findIndex()                              14. repeat()
-15. map()
+15. map()                                    15. search()
 16. forEach()
 17. reduce(), reduceRight(), reduceLeft()
 18. sort()
@@ -27,10 +27,11 @@ Array methods                                 String methods
 22. some()
 23. every()
 24. slice()
+25. flat()
 
 
-Нужны примеры по arrayMethods(9, 13, 14, 16, 18, 19, 20, 21, 22, 23)
-Нужны примеры по stringMethods(7, 9, 10, 11, 12, 13, 14)
+Нужны примеры по arrayMethods(9, 13, 14, 16, 18, 19, 20, 21, 22, 23, 25)
+Нужны примеры по stringMethods(7, 9, 10, 11, 12, 13, 14, 15)
 **/
 
 // --- compare with strings
