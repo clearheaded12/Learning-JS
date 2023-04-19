@@ -65,6 +65,35 @@
 
 // console.log(fibonacci(1));
 
+// Stack:
+/*
+                             fib(4)
+                    fib(3)     +     fib(2)
+            fib(2) + fib(1)    +   fib(1) + fib(0)
+      fib(1) + fib(0)
+*/                     
+
+// Задача на числа Фибоначчи
+
+// 0, 1, 1, 2, 3, 5, 8, 13, 21
+// 1, 2, 3, 4, 5, 6,  7, 8, 9
+
+// function fibonacci(n) {
+//   n--;
+//   if (n == 0) return 0;
+//   if (n == 1) return 1;
+//   let arr = [0, 1];
+//   let sumArr = 0;
+//   for (let i = 2; i <= n; i++) {
+//     sumArr = arr.at(-1) + arr.at(-2);
+//     arr.push(sumArr);
+//   }
+//   return arr[n];
+// }
+
+// console.log(fibonacci(1));
+// console.log(fibonacci(8));
+
 //////////////////////////////////////////////////// ЗАМЫКАНИЕ
 
 // let count = 0
@@ -126,8 +155,4 @@
 // console.log(a);
 // console.log(a(1));
 // console.log(a(3));
-
-
-//////////////////////////////////////////////////// ARRAYS METHODS
-
 

@@ -18,35 +18,35 @@
 
 // console.log(`============`);
 
-let n = 7;
-let stairs = ``;
-let stair = 0;
-let spacePlus = ` `;
-for (let i = 0; i < n; i++) {
-  stairs += spacePlus.repeat(i + stair) + `I` + `\n`;
-  stair++;
-}
-console.log(stairs);
+// let n = 7;
+// let stairs = ``;
+// let stair = 0;
+// let spacePlus = ` `;
+// for (let i = 0; i < n; i++) {
+//   stairs += spacePlus.repeat(i + stair) + `I` + `\n`;
+//   stair++;
+// }
+// console.log(stairs);
 
-// Решая другую задачу я нашел метод строк repeat. Его же использовал в этой задаче.
-// Создал новую переменную space = ' ', а потом в цикле применил к ней метод repeat.
-// Итоговый код:
-function drawStairs(n) {
-  let str = "I";
-  let space = " ";
-  for (let i = 1; i < n; i++) {
-    if (i < n) {
-      str += "\n";
-      str += space.repeat(i);
-      str += "I";
-    } else {
-      str += "I";
-      str += space;
-    }
-  }
-  console.log(str);
-}
-drawStairs(n)
+// // Решая другую задачу я нашел метод строк repeat. Его же использовал в этой задаче.
+// // Создал новую переменную space = ' ', а потом в цикле применил к ней метод repeat.
+// // Итоговый код:
+// function drawStairs(n) {
+//   let str = "I";
+//   let space = " ";
+//   for (let i = 1; i < n; i++) {
+//     if (i < n) {
+//       str += "\n";
+//       str += space.repeat(i);
+//       str += "I";
+//     } else {
+//       str += "I";
+//       str += space;
+//     }
+//   }
+//   console.log(str);
+// }
+// drawStairs(n)
 
 // let str = "I";
 // for (let i = 1; i < n; i++) {
