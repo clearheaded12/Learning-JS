@@ -2,10 +2,10 @@
 // https://www.youtube.com/watch?v=7wen-eBaFXw&list=PL6Gtav8N4O7iYmUm6wBjJd8EJ2KFXMPIH&index=31
 
 /**
-Array methods                                 String methods                             Array                 Object
-1.  shift()                                   1. split()                                 Array.from()
-2.  unshift()                                 2. join()                                  Array.of()
-3.  pop()                                     3. slice(), substring(), substr()          Array.isArray()
+Array methods                                 String methods                             ARRAY                   OBJECT
+1.  shift()                                   1. split()                                 Array.from()            Object.keys()
+2.  unshift()                                 2. join()                                  Array.of()              Object.values()
+3.  pop()                                     3. slice(), substring(), substr()          Array.isArray()         Object.entries()
 4.  push()                                    4. length
 5.  concat()                                  5. replace()
 6.  spread operator                           6. charAt()
@@ -18,7 +18,7 @@ Array methods                                 String methods                    
 13. find()                                   13. includes()
 14. findIndex()                              14. repeat()
 15. map()                                    15. search()
-16. forEach()
+16. forEach()                                16. startsWith(), endsWith()
 17. reduce(), reduceRight(), reduceLeft()
 18. sort()
 19. some()
@@ -27,13 +27,26 @@ Array methods                                 String methods                    
 
 
 Нужны примеры по arrayMethods(9, 21)
-Нужны примеры по stringMethods(7, 9, 11, 13, 14, 15)
+Нужны примеры по stringMethods(9, 15)
 **/
 
 // лекции в которых говорилось о методах
 // 1. https://www.youtube.com/watch?v=IiiswmPNqhw&list=PL6Gtav8N4O7iYmUm6wBjJd8EJ2KFXMPIH&index=33
 // 2. https://www.youtube.com/watch?v=CK9NKGh4_is&list=PL6Gtav8N4O7iYmUm6wBjJd8EJ2KFXMPIH&index=38
 // 3. https://youtu.be/j-cZ51EWQdg
+
+// Одни из самых популярных методов
+/*
+1. replace()
+2. slice()
+3. split(), join()
+4. indexOf()
+5. forEach()
+6. indexOf()
+7. filter()
+8. map()
+9. reduce()
+*/
 
 // ============= Сравнение массивов
 // const arr1 = [1, null, 3];
@@ -117,13 +130,51 @@ Array methods                                 String methods                    
 
 //======== indexOf(), lastIndexOf()
 // Возвращает индекс первого вхождения подстроки в строке. Возвращает -1, если значение не найдено.
-// const str = `Fakhraddin`
+// const str = `Fakhraddin`;
 // console.log(str.lastIndexOf(`d`));
 // console.log(str.lastIndexOf(`d`));
 
+// const arr = [];
+// let pos = str.lastIndexOf(`a`);
+// let count = 0
+
+// while (pos != -1) {
+//   arr.push(pos);
+//   count++;
+//   pos = str.lastIndexOf(`a`, pos -1);
+// }
+// console.log(arr, count);
+
+//======== startsWith(), endsWith()
+// Используется для определения, начинается ли строка с указанной подстроки. Он возвращает true, если строка начинается с указанной подстроки
+// false в противном случае.
+// const str = `Fakhraddin Ar`;
+// console.log(str.startsWith(`Ar`, 11));
+
+// endsWith()
+// Возвращает булевое значение, указывающее, заканчивается ли строка заданным набором символов.
+
+// charCodeAt()
+// Возвращает числовое значение Юникода для символа по указанному индексу
+// const str = `Fakhraddin`;
+// const arr = [];
+// let strRes = ``
+
+// for (let i = 0; i < str.length; i++) {
+//   arr.push(str.charCodeAt(i));
+// }
+// console.log(arr);
+
+// // Возврат обратно к буквам
+// for (let i = 0; i < arr.length; i++) {
+//     strRes += String.fromCharCode(arr[i])
+// }
+// console.log(strRes);
 
 // //                                      =================== ARRAYS METHODS ===================
+
 //                                                    Все методы используют строгое сравнение
+
 // ========== String method: split() & Array method join() ==========  Разные методы для удобства объяснения
 //split(); делит строку по указанному разделителю, возвращает массив
 // split('') возвращает символов
@@ -460,3 +511,93 @@ Array methods                                 String methods                    
 
 // let num = []
 // console.log(Array.isArray(num));
+
+//                                       =================== OBJECT METHODS ===================
+
+// //======== Object.keys()
+// //======== Object.values()
+// //======== Object.entries()
+
+const log = console.log;
+// let obj = {
+//   name: `Amir`,
+//   teacher: `Yes`,
+//   language: `Python`,
+// };
+
+// log(Object.keys(obj))
+// log(Object.values(obj))
+// log(Object.entries(obj))
+
+//////// Различные задачи с методами
+
+// 1.
+// let arr = [{4: `cat`}, {7: `She`}, {'-2': `Serj`}, {5: `for`}]
+
+// log(arr.sort((a, b) => Object.keys(a) - Object.keys(b)).map(obj => Object.values(obj).join(` `)))
+
+// 2. Проверка повторяемость символов в строке
+// let str = `The charCodeAt() method returns an integer between 0 abd 65535`;
+// const obj = {};
+// for (letter of str) {
+//   if (letter in obj) {
+//     obj[letter]++;
+//   } else {
+//     obj[letter] = 1;
+//   }
+// }
+// (Object.entries(obj).sort((a, b) => b[1] - a[1]).map(el => `${el[0]} - ${el[1]}`).forEach(el => log(el)))
+
+
+
+//////// For in object
+
+// let obj = {};
+// let str = `Python`;
+// const log = console.log
+
+// obj[`firstName`] = `Amir`;
+
+// for (let i = 0; i < str.length; i++) {
+//   obj[i] = str[i];
+// }
+// log(obj);
+
+//////// Как обратиться к функции внутри объекта
+
+// const log = console.log;
+// let obj = {
+//   arr: [10, 20, 30],
+//   obj_1: { a: `abc`, b: `cbd` },
+//   100: 1000,
+//   func: (x, y) => x + y,
+// };
+// let str = `Python`;
+// log(obj.func(4, 8))
+
+// for (let i = 0; i < 10; i++) {
+//   log({ i, str });
+// }
+
+//////// Разные действия с объектом в цикле
+
+// 1.
+// for (let key in obj) {
+//   log(key, obj[key]);
+// }
+
+// 2.
+// for (key in obj){
+//     if (key == `func`) {
+//         log(obj[key](10,20))
+//     }
+// }
+
+// 3. обращение к внутреннему объекту
+// for (let key in obj) {
+//   if (key == `obj_1`) {
+//     for (let key_1 in obj[key]) {
+//       log(key_1);
+//     }
+//   }
+// }
