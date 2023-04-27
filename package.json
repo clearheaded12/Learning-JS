@@ -1,0 +1,19 @@
+{
+  "name": "learning-js",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clearheaded12/Learning-JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clearheaded12/Learning-JS/issues"
+  },
+  "homepage": "https://github.com/clearheaded12/Learning-JS#readme"
+}
