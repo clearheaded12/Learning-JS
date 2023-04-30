@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/clearheaded12/Learning-JS/issues"
   },
-  "homepage": "https://github.com/clearheaded12/Learning-JS#readme"
+  "homepage": "https://github.com/clearheaded12/Learning-JS#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }

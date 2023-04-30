@@ -1,3 +1,7 @@
+// 8.3 (04/15) Принципы ООП и реализация этих принципов в JS (Stan P.)
+
+// https://www.youtube.com/watch?v=MTYLZDUwy0o&list=PL6Gtav8N4O7iYmUm6wBjJd8EJ2KFXMPIH&index=44
+
 let log = console.log;
 
 ////////////////////////////////

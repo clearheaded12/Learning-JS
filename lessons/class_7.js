@@ -1,4 +1,8 @@
-// //----------- ==; === -------- compare arrays
+// 7. (04/04) Объект в JS (Nalya Sh)
+
+// https://www.youtube.com/watch?v=4Ayc6D857i0&list=PL6Gtav8N4O7iYmUm6wBjJd8EJ2KFXMPIH&index=35
+
+// //----------- ===== -------- compare arrays
 
 // let arr = [1, 2];
 // let arr1 = ["a", "b"]

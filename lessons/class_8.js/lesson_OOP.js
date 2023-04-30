@@ -1,3 +1,7 @@
+// 8. (04/11) ООП в JS (Nalya Sh)
+
+// https://www.youtube.com/watch?v=IM1q5Cogxcw&list=PL6Gtav8N4O7iYmUm6wBjJd8EJ2KFXMPIH&index=41
+
 /**
  * There are two types of OOP languages:
 
